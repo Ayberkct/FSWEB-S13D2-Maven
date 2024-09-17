@@ -33,10 +33,10 @@ public class Main {
         return sum == number;
     }
 
-    public static void numberToWords(int number) {
+    public static String numberToWords(int number) {
         if (number < 0) {
-            System.out.println("Invalid Value");
-            return;
+
+            return "Invalid Value";
         }
 
         int reversedNumber = 0;
