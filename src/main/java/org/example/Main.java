@@ -49,7 +49,7 @@ public class Main {
             reversedNumber = (reversedNumber * 10) + lastDigit;
             temp /= 10;
             digitCount++;
-        } 
+        }
 
         while (reversedNumber > 0) {
             int digit = reversedNumber % 10;
@@ -77,5 +77,6 @@ public class Main {
 
 
     }
+
     }
-}
+
